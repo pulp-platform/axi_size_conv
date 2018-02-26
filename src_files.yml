@@ -1,0 +1,9 @@
+axi_size_conv:
+  incdirs: [
+    .,
+  ]
+  files: [
+    AXI_UPSIZE_simple/axi_size_UPSIZE_32_64.sv,
+    AXI_UPSIZE_simple/axi_size_UPSIZE_32_64_wrap.sv,
+    AXI_UPSIZE/Write_UPSIZE.sv,
+  ]
