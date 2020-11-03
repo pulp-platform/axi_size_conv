@@ -1,0 +1,13 @@
+package:
+  name: axi_size_conv
+  authors: 
+    - "Francesco Conti <f.conti@unibo.it>"
+
+dependencies:
+  common_cells: {git: "git@github.com:pulp-platform/common_cells.git", version: 1.13.1}
+  axi_slice: {git: "git@github.com:pulp-platform/axi_slice.git", version: 1.1.4}
+
+sources:
+  - AXI_UPSIZE_simple/axi_size_UPSIZE_32_64.sv
+  - AXI_UPSIZE_simple/axi_size_UPSIZE_32_64_wrap.sv
+  - AXI_UPSIZE/Write_UPSIZE.sv
